@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(216, 205, 190);
+    display: flex;
+}
+
+body #main-left-div {
+    width: 30%;
+}
+
+body #main-right-div {
+    width: 70%;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
