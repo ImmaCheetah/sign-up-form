@@ -1,14 +1,31 @@
+:root {
+    /* Color variables */
+    --color-text: rgb(240, 240, 240);
+    
+}
+
 body {
     background-color: rgb(216, 205, 190);
     display: flex;
 }
 
+h1 {
+    text-align: center;
+}
+
+#title-div {
+    padding: 5px;
+    background-color: rgba(36, 36, 36, 0.145);
+}
+
 body #main-left-div {
     width: 30%;
+    border: solid 2px rgb(82, 82, 82);
 }
 
 body #main-right-div {
     width: 70%;
+    border: solid 2px rgb(82, 82, 82);
 }
 
 input,
