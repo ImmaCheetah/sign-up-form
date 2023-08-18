@@ -18,7 +18,7 @@
         <img src="images/bg.jpg" alt="Background Image" class="bg">
             <div id="photo-credit" class="credit">
                 Photo by <a href="https://unsplash.com/@xteemu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Teemu Paananen</a> on <a href="https://unsplash.com/photos/OOE4xAnBhKo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </div> 
+            </div>
     </div>
     <div id="main-right-div" class="main right">
         <div id="intro" class="intro">
@@ -26,36 +26,42 @@
         </div>
         
         <div id="main-form" class="form">
-            <h3>Escootit</h3>
-            <form action="get">
+            <h3>Fill er up</h3>
+            <form id="my-form" action="" method="post">
                 <div id="fname-div" class="form-div">
                     <label for="first-name">First Name</label>
                     <input type="text" name="first-name" id="first-name" placeholder="John" required>
+                    <span></span>
                 </div>
                 <div id="lname-div" class="form-div">
                     <label for="last-name">Last Name</label>
                     <input type="text" name="last-name" id="last-name" placeholder="Doe" required>
+                    <span></span>
                 </div>    
                 <div id="email-div" class="form-div">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="john@gmail.com" required>
+                    <span></span>
                 </div>
                 <div id="number-div" class="form-div">
                     <label for="number">Phone Number</label>
-                    <input type="tel" name="number" id="number" placeholder="123-456-7890" required>
+                    <input type="tel" name="number" id="number" placeholder="123-456-7890">
+                    <span></span>
                 </div>
                 <div id="pwd-div" class="form-div">
                     <label for="pwd">Password</label>
                     <input type="password" name="pwd" id="pwd" placeholder="******" required>
+                    <span></span>
                 </div>
                 <div id="pwd2-div" class="form-div">
                     <label for="pwd2">Confirm Password</label>
                     <input type="password" name="pwd2" id="pwd2" placeholder="******" required>
+                    <span></span>
                 </div>
             </form>
         </div>
         <div id="submit-section" class="submit">
-            <button type="submit">Create Account</button>
+            <input type="submit" form="my-form" value="Create Account">
             <p>Already a member? <a>Log In</a></p>
         </div>
     </div>
