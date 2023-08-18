@@ -107,6 +107,7 @@ body #main-right-div {
     position: relative;
     color: var(--txt-clr);
     text-shadow: 1px 1px 5px rgba(74, 67, 66, 0.71);
+    line-height: 2.5rem;
 }
 
 #intro h3 {
@@ -156,3 +157,5 @@ label {
     display: block;
     font-size: 1.3rem;
 }
+
+/* SUBMIT SECTION || */
