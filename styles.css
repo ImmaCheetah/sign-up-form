@@ -69,15 +69,21 @@ h1 {
     color: white;
 }
 
-#title-div {
-    padding: 5px;
-    background-color: rgba(36, 36, 36, 0.39);
-}
-
 body #main-left-div {
     width: 40%;
     border: solid 2px rgb(82, 82, 82);
+    position: relative;
 }
+
+#title-div {
+    padding: 20px 0px 20px 0px;
+    background-color: rgba(36, 36, 36, 0.39);
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+
 
 .bg {
     width: 100%;
