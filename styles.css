@@ -81,6 +81,11 @@ body #main-left-div {
     position: relative;
 }
 
+#title-div img {
+    width: 80px;
+    padding-left: 15px;
+}
+
 #title-div {
     padding: 20px 0px 20px 0px;
     background-color: rgba(36, 36, 36, 0.608);
@@ -192,6 +197,7 @@ label {
     font-family: inherit;
     color: var(--txt-clr);
     box-shadow: none;
+    
 }
 
 .submit p {
@@ -203,9 +209,13 @@ label {
     color: var(--txt-clr);
 }
 
-/* BUTTON AND INPUT ACTIONS || */
+/* EFFECTS AND GENERATED CONTENT || */
 input:focus {
     outline: solid 2px rgb(129, 202, 120);
+}
+
+.submit input:focus {
+    outline: none;
 }
 
 input, span {
