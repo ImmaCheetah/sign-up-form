@@ -217,3 +217,8 @@ button:active {
     transform: translateY(4px);
     transition: 80ms;
 }
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
