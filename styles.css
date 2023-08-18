@@ -45,18 +45,20 @@ table {
 
 /* VARIABLES TO USE || */
 :root {
-    --color-text: rgb(240, 240, 240);
-    
+    --txt-clr: rgb(240, 240, 240);
+    --main-bg: #376a38;
+    --form-bg: #242c28;
+    --form-border-clr: rgb(218, 218, 218);
 }
 
 /* Div outlines */
 div {
-    border: solid 1px gray;
+    /* border: solid 1px gray; */
 }
 
 /* BASIC STYLING || */
 body {
-    background-color: rgb(216, 205, 190);
+    background-color: var(--main-bg, white);
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -72,14 +74,14 @@ h1 {
 
 /* LEFT SIDE || */
 body #main-left-div {
-    width: 40%;
-    border: solid 2px rgb(82, 82, 82);
+    width: 35%;
+    /* border: solid 2px rgb(82, 82, 82); */
     position: relative;
 }
 
 #title-div {
     padding: 20px 0px 20px 0px;
-    background-color: rgba(36, 36, 36, 0.39);
+    background-color: rgba(36, 36, 36, 0.608);
     position: absolute;
     top: 30%;
     width: 100%;
@@ -92,8 +94,8 @@ body #main-left-div {
 
 /* RIGHT SIDE || */
 body #main-right-div {
-    width: 60%;
-    border: solid 2px rgb(82, 82, 82);
+    width: 65%;
+    /* border: solid 2px rgb(82, 82, 82); */
 }
 
 #intro {
@@ -102,6 +104,7 @@ body #main-right-div {
     justify-content: center;
     align-items: center;
     position: relative;
+    color: var(--txt-clr);
 }
 
 #intro h3 {
@@ -112,20 +115,41 @@ body #main-right-div {
 /* RIGHT SIDE FORM SECTION || */
 #main-form h3 {
     font-size: 40px;
+    color: var(--txt-clr);
+    padding-bottom: 15px;
 }
 
 #main-form {
-    height: 30%;
-    padding: 4% 7% 0% 4%;
-    width: 500px;
+    height: 35%;
+    padding: 2% 7% 2% 4%;
+    background-color: var(--form-bg, rgb(120, 120, 137));
 }
 
 form {
     display: flex;
     flex-wrap: wrap;
+    width: 70%;
     gap: 30px;
 }
 
 .form-div {
-   width: 200px;
+   width: 250px;
+}
+
+input {
+    appearance: none;
+    border: none;
+    background-color: var(--form-bg, white);
+    border: solid 1px var(--form-border-clr, white);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 7px 10px 40px -4px rgba(0,0,0,0.75);
+    display: block;
+}
+
+label {
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 1.3rem;
 }
