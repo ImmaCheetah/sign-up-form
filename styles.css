@@ -18,6 +18,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -91,6 +92,18 @@ body #main-left-div {
 .bg {
     width: 100%;
     height: 100%;
+    /* position: relative; */
+}
+
+.credit a {
+    color: white;
+}
+
+.credit {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
 }
 
 /* RIGHT SIDE || */
