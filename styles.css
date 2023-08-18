@@ -186,3 +186,21 @@ button {
 .submit a {
     color: var(--txt-clr);
 }
+
+/* BUTTON AND INPUT ACTIONS || */
+input:focus {
+    outline: solid 2px rgb(129, 202, 120);
+}
+
+button:hover {
+    background-color: white;
+    color: var(--main-bg);
+    border: solid 2px var(--main-bg);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(4px);
+    transition: 80ms;
+}
