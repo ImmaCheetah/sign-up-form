@@ -106,5 +106,26 @@ body #main-right-div {
 
 #intro h3 {
     font-size: 40px;
-    padding: 9% 7% 0px 7%;
+    padding: 9% 7% 0px 4%;
+}
+
+/* RIGHT SIDE FORM SECTION || */
+#main-form h3 {
+    font-size: 40px;
+}
+
+#main-form {
+    height: 30%;
+    padding: 4% 7% 0% 4%;
+    width: 500px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.form-div {
+   width: 200px;
 }
