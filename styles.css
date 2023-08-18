@@ -159,3 +159,26 @@ label {
 }
 
 /* SUBMIT SECTION || */
+.submit {
+    padding: 2% 7% 3% 4%;
+}
+
+button {
+    appearance: none;
+    border: solid 2px white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 7px;
+    background-color: var(--main-bg, gray);
+    font-size: 25px;
+    font-family: inherit;
+    color: var(--txt-clr);
+}
+
+.submit p {
+    padding-top: 15px;
+    font-size: 1.35rem;
+}
+
+.submit a {
+    color: var(--txt-clr);
+}
