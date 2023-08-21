@@ -213,7 +213,7 @@ label {
 
 /* EFFECTS AND GENERATED CONTENT || */
 input:focus {
-    outline: solid 2px rgb(129, 202, 120);
+    outline: solid 2px rgb(219, 224, 219);
     box-shadow: 7px 10px 40px -4px rgba(0, 0, 0, 0.75);
 }
 
